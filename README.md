@@ -2,7 +2,7 @@
 
 This repository is to study [Brad Garton](http://sites.music.columbia.edu/brad/)'s great algorithmic composition [Rough Raga Riffs](http://sites.music.columbia.edu/brad/music/index.html#Rough_Raga_Riffs).
 
-It was composed in 1991. This is the original [program note]()
+It was composed in 1991. This is the original [program note](http://sites.music.columbia.edu/brad/music/notes/Rough_Raga_Riffs.html)
 
 > Rough Raga Riffs is the sonic output of my attempt to grow a wailin'
 heavy-metal guitarist in my NeXT computer.  For this piece, however, the
