@@ -69,3 +69,13 @@ FRET1(11.082783 , 0.5252182 , 5.0 , 20 , 1.0 , 15 , 0.07 , 7.0 , 0 , 1)
 FRET1(11.608001 , 2.0566807 , 5.01 , 20 , 1.0 , 15 , 0.07 , 7.0 , 0 , 1)
 ```
 
+# Rendering score into sound
+
+It looks like Cmix is not available anymore.
+
+* It is not on [Lansky's software page](http://paul.mycpanel.princeton.edu/software.html)
+* Some pages have link to this URL http://www.music.princeton.edu/winham/PPSK/cmixsource.html as where the source code is. But it does not exist anymore.
+* There is this [COS/MUS 325: Transforming Reality by Computer](http://www.cs.princeton.edu/courses/archive/spr99/cs325/) course given at Princeton in Spring 1999 that mention CMIX in its [factsheet > tools](http://www.cs.princeton.edu/courses/archive/spr99/cs325/tools.html) section.
+
+Garton made its real-time version called [RTcmix](http://rtcmix.org/).
+We'll try to modify the score so that it'll run on RTcmix.
