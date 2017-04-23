@@ -1,0 +1,6 @@
+(defun loadem() (prog()
+	(load 'data)
+	(load 'makes)
+	(load 'riff-o-matic)
+	)
+)
