@@ -19,3 +19,9 @@
              'car (car '(1 2 3))
              'cdr (cdr '(1 2 3))
              'cdrcdrcdr (cdr (cdr (cdr '(1 2 3))))))
+
+(print "4 quote ('): don't evalute")
+; http://www.jtra.cz/stuff/lisp/sclr/quote.html
+; http://clhs.lisp.se/Body/s_quote.htm#quote
+(print (list 'twoplustwo (+ 2 2)
+             'quote-twoplustwo '(+ 2 2)))
