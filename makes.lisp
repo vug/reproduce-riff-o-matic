@@ -112,7 +112,7 @@
 	)
 )
 
-(defun int(v) (excl::single-float-to-integer v))
+(defun int(v) (round v))
 
 (defun pchplus(pitch amount) (prog (intpch newpch intcl newcl)
 	(setq intpch (int pitch))
