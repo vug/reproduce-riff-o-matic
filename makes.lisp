@@ -95,8 +95,8 @@
 )
 
 (defun calcsteps(p0 p1) (prog(intp0 intp1 ntwelves)
-	(setq intp0 (excl::single-float-to-integer p0))
-	(setq intp1 (excl::single-float-to-integer p1))
+	(setq intp0 (int p0))
+	(setq intp1 (int p1))
 	(setq ntwelves (- intp1 intp0))
 	(return (+ (- (* 100 (- p1 intp1)) (* 100 (- p0 intp0))) (* ntwelves 12)))
 	)
