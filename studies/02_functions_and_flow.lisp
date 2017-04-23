@@ -12,3 +12,17 @@
   ((> 2 4) (print "2>4"))
   ((> 3 4) (print "3>4"))
   (t (print "else")))
+
+(print "2: global/local variables")
+; http://clhs.lisp.se/Body/f_boundp.htm
+(defun outside(local-a)
+  (prog ((local-b 2))
+        (setq GLOBAL-C 3)
+        (inside)))
+(defun inside()
+  (print "I'm inside")
+  (print (boundp 'GLOBAL-C))
+  (print (boundp 'local-a))
+  (print (boundp 'local-b)))
+(outside 1)
+(print "end")
