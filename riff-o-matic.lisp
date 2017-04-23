@@ -1,7 +1,6 @@
-(defun riff-o-matic(nnotes) (prog(count)
+(defun riff-o-matic(nnotes) (prog ((count 0))
 	(princ "output file? ")
 	(setq OUTFILE (outfile (read)))
-	(setq count 0)
 	(setq START 0)
 	(setq PREVPITCH 4.07)
 	(setq WORKRHYTHS RHYTHMS)
