@@ -69,6 +69,11 @@ FRET1(11.082783 , 0.5252182 , 5.0 , 20 , 1.0 , 15 , 0.07 , 7.0 , 0 , 1)
 FRET1(11.608001 , 2.0566807 , 5.01 , 20 , 1.0 , 15 , 0.07 , 7.0 , 0 , 1)
 ```
 
+## CLISP references
+
+* [Common Lisp HyperSpec \(TM\)](http://clhs.lisp.se/Front/index.htm)
+* [Simplified Common Lisp reference](http://www.jtra.cz/stuff/lisp/sclr/index.html)
+
 # Rendering score into sound
 
 It looks like Cmix is not available anymore.
