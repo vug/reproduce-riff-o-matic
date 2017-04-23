@@ -25,3 +25,12 @@
 ; http://clhs.lisp.se/Body/s_quote.htm#quote
 (print (list 'twoplustwo (+ 2 2)
              'quote-twoplustwo '(+ 2 2)))
+
+(print "5 eval")
+; http://www.jtra.cz/stuff/lisp/sclr/eval.html
+(setq expr1 2)
+(setq expr2 '(+ 2 2))
+(print (list 'expr1 expr1
+             'eval-expr1 (eval expr1)
+             'expr2 expr2
+             'eval-expr2 (eval expr2)))
