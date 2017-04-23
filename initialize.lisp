@@ -1,3 +1,3 @@
-(load '/family/brad/lisp/utils.lisp)
+(load 'utils.lisp)
 (setq *random-state* (make-random-state t))
 (load 'loadem)
