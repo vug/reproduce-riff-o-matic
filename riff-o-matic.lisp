@@ -14,8 +14,4 @@
              (go again)))))
 
 (defun generator (inflist)
-  (prog ()
-        (cond
-          ((null inflist) (return t))
-          (t (eval (car inflist))
-             (generator (cdr inflist))))))
+  (map 'nil 'eval inflist))
