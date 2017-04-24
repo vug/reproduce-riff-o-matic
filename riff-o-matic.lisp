@@ -5,13 +5,9 @@
         (setq START 0)
         (setq PREVPITCH 4.07)
         (setq WORKRHYTHS RHYTHMS)
-   again
-        (cond
-          ((= count nnotes) (close OUTFILE)
-                            (return t))
-          (t (generator (eval (getel INFLECTIONS)))
-             (setq count (+ count 1))
-             (go again)))))
+        (loop repeat nnotes do
+          (generator (eval (getel INFLECTIONS))))
+       	(close OUTFILE)))
 
 (defun generator (inflist)
   (map 'nil 'eval inflist))
