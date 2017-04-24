@@ -2,3 +2,4 @@
 (setq *random-state* (make-random-state t))
 (load 'loadem.lisp)
 (loadem)
+(setq OUTFILE *standard-output*)
